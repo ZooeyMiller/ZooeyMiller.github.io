@@ -1,0 +1,46 @@
+.center{
+  text-align: center;
+  margin: auto;
+}
+
+#header{
+  height: 100px;
+  width: 100%;
+  background-color:grey;
+  position: fixed;
+}
+
+.head-button{
+  height: 50px;
+  width 50px;
+  margin: 10px 5px 10px 5px;
+}
+
+#about-me{
+  padding-top: 120px;
+}
+
+.container{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#about-me-text{
+  width: 74%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#about-me-img{
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1{
+  margin: 0px;
+}
+
+body{
+  margin: 0px;
+}
