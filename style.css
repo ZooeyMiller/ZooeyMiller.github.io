@@ -1,7 +1,7 @@
 #header{
   height: 80px;
   width: 100%;
-  background-color:grey;
+  background-color:#90AFC5;
   position: fixed;
 }
 
@@ -9,15 +9,33 @@
   height: 50px;
   margin: 15px 5px 15px 5px;
   vertical-align: middle;
+  background-color: #2A3132;
+  color: white;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border-width: thin;
+}
+
+.head-button:hover{
+  background-color: white;
+  color: #2A3132;
+}
+
+#main-background{
+  background-color: #336B87;
 }
 
 #about-me{
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .container{
   padding-left: 20%;
   padding-right: 20%;
+  background-color: white;
+  background-clip: content-box;
 }
 
 #about-me-text{
@@ -33,16 +51,37 @@
 }
 
 #portfolio{
-  padding-top: 120px;
+  padding-top: 100px;
+}
+
+.image-gap{
+  height: .5em;
 }
 
 h1{
   margin: 0px;
+  font-family: Helvetica;
 }
 
 body{
   margin: 0px;
 }
 p{
-  font-size: 40px;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+.port-align{
+  width: 45%;
+  display: inline-block;
+}
+
+#gap{
+  width: 1%;
+  display: inline-block;
+}
+
+.keep-in{
+  padding-left: 1%;
+  padding-right: 1%;
 }
