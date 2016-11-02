@@ -58,17 +58,21 @@
   height: .5em;
 }
 
+#pic-holder{
+  width: 98%;
+  margin: 0 auto;
+}
+
 h1{
   margin: 0px;
-  font-family: Helvetica;
 }
 
 body{
   margin: 0px;
+  font-family: Helvetica, sans-serif;
 }
 p{
   font-size: 18px;
-  font-family: Helvetica;
 }
 
 .port-align{
@@ -76,12 +80,17 @@ p{
   display: inline-block;
 }
 
-#gap{
-  width: 1%;
-  display: inline-block;
-}
-
 .keep-in{
   padding-left: 1%;
   padding-right: 1%;
+}
+
+#links{
+  padding-top: 100px;
+}
+
+#githublogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
