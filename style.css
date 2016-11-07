@@ -98,3 +98,19 @@ p{
 td{
   vertical-align: top;
 }
+
+table{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-media-pic{
+  width: 6em;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-td{
+  text-align: center;
+}
